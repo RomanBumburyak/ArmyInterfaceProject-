@@ -1,24 +1,22 @@
 public abstract class Soldier {
-    public static void main(String[] args) {
-
 
         String name;
         String rank;
         String serialNumber;
 
-    }
+
 //////Methods
 
     public String sleep() {
-        System.out.println(" Sleep / Schlaffen ");
+        return (" Sleep / Schlaffen ");
     }
 
     public String eat() {
-        System.out.println(" Eat / Essen ");
+        return (" Eat / Essen ");
     }
 
     public String walk() {
-        System.out.println(" Walk / Gehen ");
+        return (" Walk / Gehen ");
     }
 
     /////////Speak Method
@@ -33,20 +31,9 @@ public abstract class Soldier {
 
 
 
-//    public interface name{
-//
-//
-//    }
-//
-//    public interface rank  {
-//
-//
-//    }
-//
-//    public interface serialNumber{
-//
-//
-//    }
+
+
+
 
 
 }
